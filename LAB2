@@ -3,16 +3,12 @@ using namespace std;
 
 int main()
 {
-    int a, b;
-    cout << "Enter 1 number";
+    double a, b,area;
+    cout << "first side";
     cin >> a;
-    cout << "Enter 2 number";
+    cout << "second side";
     cin >> b;
-    if (a > b)
-            cout << "Number 1 more 2";
-    else if (b > a)
-            cout << "Number 2 more 1";
-    else 
-            cout << "The numbers are equal" << endl;
-    
+    area = a * b;
+    cout << "Square = " << area << endl;
+
 }
